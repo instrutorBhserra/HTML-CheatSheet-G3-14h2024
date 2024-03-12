@@ -1,0 +1,26 @@
+/* ← Commentary → */
+/*
+↓↓↓↓ Selector - Says what will be affected*/
+html{
+/*__↑ Start of declaration block */
+/*↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Property*/
+background-color: #111; /*← Declaration */
+/*__________________↑↑↑↑ Value*/
+/*___↓ Colon*/
+color: white;
+/*____________↑ Separator*/
+/*
+↓ End of declaration block */
+}
+
+p { color: yellow } /* ← Rule */
+
+input{ /*Select by tag*/
+    font-size: 24px;
+}
+.border{ /* Select by class */
+    background-color: blue;
+}
+#seg{ /* Select by id */
+    background-color: indigo;
+}
